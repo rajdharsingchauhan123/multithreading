@@ -13,7 +13,7 @@ public class Arraylsit {
         list.add("promode sir ");
         list.add("ravikant");
       list.stream().distinct().forEach(System.out::println);
-      list.stream().map(String::toUpperCase).forEach(s -> System.out.println(s));
+      list.stream().map(String::toUpperCase).forEach(System.out::println);
 
     }
 }
