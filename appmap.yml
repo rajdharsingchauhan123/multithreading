@@ -1,0 +1,14 @@
+name: oops_in_java
+packages:
+- path: com.Animal
+- path: com.consumer
+- path: com.Employee
+- path: Com.inheritace
+- path: com.Multithreading
+- path: com.polymorphism
+- path: com.stream
+- path: Com.String
+- path: Demo
+- path: lambda
+- path: org.example
+- path: Quiz

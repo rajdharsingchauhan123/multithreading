@@ -77,23 +77,24 @@ package Quiz;
 //
 //}
   // anomnus static method in java
- interface  hello{
-  void show ();
-}
-class demo{
-  static hello h =new hello(){
-   public void show(){
-    System.out.println("hello ravi how are you");
-   }
-
- };
-
- public static void main(String[] args) {
-  h.show();
- }
-
-
-}
+// interface  hello{
+//  void show ();
+//}
+//class demo{
+//  static hello h =new hello(){
+//   public void show(){
+//    System.out.println("hello ravi how are you");
+//   }
+//
+// };
+// public Object run;
+//
+// public static void main(String[] args) {
+//  h.show();
+// }
+//
+//
+//}
 // using in lambda
 // public static void main(String[] args) {
 //  int x=0;
