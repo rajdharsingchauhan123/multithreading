@@ -21,7 +21,7 @@ public class OptionaDemo {
 
 
         System.out.println(getallemplye1);
-        Optional.of(getallemplye1.map(Employe::getFirstname))
+        Optional.of(getallemplye1.map(Employe::getFirstname));
         //System.out.println(s);
        // Employe employe = getallemplye1.get();
         System.out.println(getallemplye1.get());
