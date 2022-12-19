@@ -11,6 +11,7 @@ public class ThreadDemo extends Thread{
 class thread1 implements Runnable{
     @Override
     public void run() {
+
         for (int i=0;i<1400;i++){
             System.out.println("hello ravi how are yuo");
         }
@@ -19,6 +20,7 @@ class thread1 implements Runnable{
 class Threaddeomo1 {
      public static void main(String[] args) {
          ThreadDemo threadDemo =new ThreadDemo();
+
          thread1 t =new thread1();
          Thread t1 =new Thread(t);
          t1.start();
