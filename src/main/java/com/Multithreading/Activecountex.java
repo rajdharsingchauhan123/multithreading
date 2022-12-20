@@ -3,7 +3,7 @@ package com.Multithreading;
 public class Activecountex {
     public static void main(String[] args) {
 
-        ThreadGroup tg =new ThreadGroup("parent");
+        ThreadGroup tg =new ThreadGroup("parents");
         Threadpoolactivecount t1=new Threadpoolactivecount("first ",tg);
         System.out.println("starting thread");
         Threadpoolactivecount t2=new Threadpoolactivecount("second  ",tg);
