@@ -2,6 +2,7 @@ package com.Multithreading;
 
 public class Activecountex {
     public static void main(String[] args) {
+        
 
         ThreadGroup tg =new ThreadGroup("parents");
         Threadpoolactivecount t1=new Threadpoolactivecount("first ",tg);
