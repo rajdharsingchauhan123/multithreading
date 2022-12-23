@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-22T18:36:25.975153Z</date>
+  <millis>1671734185975</millis>
+  <nanos>153000</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>WARNING</level>
+  <class>Javalogger.Maindemo2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warn massage log</message>
+</record>
+<record>
+  <date>2022-12-22T18:36:25.987761Z</date>
+  <millis>1671734185987</millis>
+  <nanos>761000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>SEVERE</level>
+  <class>Javalogger.Maindemo2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe massage log</message>
+</record>
+</log>
